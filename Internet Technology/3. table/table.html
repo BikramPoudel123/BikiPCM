@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Assignments</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <table border id="table">
+      <tr>
+        <thead>
+          <th>Student</th>
+          <th>Marks(GPA)</th>
+        </thead>
+      </tr>
+
+      <tr>
+        <tfoot>
+          <td colspan="2" align="center">You have done Great</td>
+
+        </tfoot>
+      </tr>
+
+      <tr>
+        <td>Bikram Poudel</td>
+        <td>3.96</td>
+      </tr>
+
+      <tr>
+        <td>Amit</td>
+        <td>3.30</td>
+      </tr>
+
+      <tr>
+        <td>Darshan</td>
+        <td>3.53</td>
+      </tr>
+
+      <tr>
+        <td>Srijana</td>
+        <td>3.70</td>
+      </tr>
+
+      <tr>
+        <td>Sujit</td>
+        <td>3.33</td>
+      </tr>
+    </table>
+
+    <h1>Add Students</h1>
+    <input type="text" id="name-input" placeholder="Type your name here" />
+    <input type="number" id="marks-input" placeholder="Type your marks here" />
+    <button id="add-btn" onclick="addStudent()">add</button>
+  </body>
+
+  <script src="table.js"></script>
+</html>
